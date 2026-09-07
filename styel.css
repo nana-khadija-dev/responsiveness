@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    background:linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(./img/liven\ room.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+}
+.icon{
+    float: left;
+
+}
+.logo{
+    color: rgb(179, 161, 94);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top:10px;
+}
+
+.menu {
+    padding:20px ;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 70px; 
+    margin-top: px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+ 
+ul li a:hover{
+    color: black;
+    
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.underline {
+    background-color: black;
+    width: 100px;
+    padding: 1px;
+    margin: 0 auto;
+}
+
+.title h1 {
+    color: black;
+    font-size: 45px;
+    text-align: center;
+}
+
+.kel {
+    font-size: 20px;
+}
+
+.categoris {
+    display: flex;
+    gap: 10px;
+    flex-direction: row; 
+    grid-template-columns: repeat(6, 1fr);
+    background-repeat: no-repeat;
+}
+
+.category img{
+    width: 150px;
+    height: 150px;
+}
+
+.contener{
+    display: flex;
+    margin-left: 100px;
+}
+.header{
+    padding-top: 70px;
+    margin-left: 10px;
+    font-size: 30px;
+    color: rgb(179, 161, 94);
+    
+}
